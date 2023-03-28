@@ -10,7 +10,7 @@ export default function App() {
     <>
     <Link to="/"></Link>
     <Routes>
-        <Route path="/welcome" element={ <Welcome />} />
+        <Route path="/" element={ <Welcome />} />
         <Route path="/signin" element={ <SignIn />} />
         <Route path="/signup" element={ <SignUp />} />
         <Route path="/forget" element={ <Forget />} />
